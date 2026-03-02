@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "编译当前cpp文件",
+			"type": "shell",
+			"command": "g++",
+			"args": [
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"group": "build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"detail": "编译当前打开的cpp文件"
+		}
+	]
+}

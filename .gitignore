@@ -1,0 +1,37 @@
+# --- C/C++ build artifacts ---
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.pdb
+*.ilk
+
+# --- Common build directories ---
+build/
+**/build/
+Debug/
+Release/
+
+# --- CMake ---
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/CTestTestfile.cmake
+**/compile_commands.json
+
+# --- VS Code (keep shared configs) ---
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
