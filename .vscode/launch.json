@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/project/c++/study",
-      "program": "d:/project/c++/study/build/Debug/outDebug",
+      "cwd": "d:/project/c++/study/cpp",
+      "program": "d:/project/c++/study/cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
